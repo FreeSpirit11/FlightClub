@@ -1,8 +1,8 @@
 import requests
 import os
 
-BEARER = os.environ["API_Bearer_Sheety"]
-USERNAME = os.environ["API_Username_Sheety"]
+BEARER = os.environ["YOUR_API_Bearer_Sheety"]
+USERNAME = os.environ["YOUR_API_Username_Sheety"]
 
 PROJECT="copyOfFlightDeals"
 SHEET="users"

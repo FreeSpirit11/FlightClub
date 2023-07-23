@@ -3,8 +3,8 @@ from data_manager import DataManager
 from flight_search import FlightSearch
 from notification_manager import NotificationManager
 
-google_sheet_link="https://docs.google.com/spreadsheets/d/1yzIhs0E2pvmA-pkL6IpAltEkhwwi_9dGXMAZ1_9Nwk4/edit#gid=1418962850"
-user_registration_link="https://replit.com/@MansiYadav14/FLightDeal2#main.py"
+google_sheet_link="YOUR_GOOGLE_SHEET_LINK" 
+user_registration_link="YOUR_LINK"
 print(f"go to this link for user registration {user_registration_link}")
 
 data_manager = DataManager()

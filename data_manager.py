@@ -1,8 +1,8 @@
 import requests
 import os
-SHEETY_PRICES_ENDPOINT = "https://api.sheety.co/32bdc5aa9d115cfccd0f27bccf94b265/copyOfFlightDeals/prices"
-SHEETY_USERS_ENDPOINT="https://api.sheety.co/32bdc5aa9d115cfccd0f27bccf94b265/copyOfFlightDeals/users"
-BEARER = os.environ["API_Bearer_Sheety"]
+SHEETY_PRICES_ENDPOINT = "YOUR_SHEETY_PRICES_ENDPOINT"
+SHEETY_USERS_ENDPOINT="YOUR_SHEETY_USERS_ENDPOINT"
+BEARER = os.environ["YOUR_API_BEARER_SHEETY"]
 
 class DataManager:
 
